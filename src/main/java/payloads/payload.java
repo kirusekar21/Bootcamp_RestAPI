@@ -33,9 +33,9 @@ public class payload {
 	public User postOnlyMandatoryField() throws JsonProcessingException {
 		user=new User();
 		user.setUser_first_name("kikiki");
-		user.setUser_last_name("seksek");
-		user.setUser_contact_number("9942545678");
-		user.setUser_email_id("abfr@gmail.com");
+		user.setUser_last_name("sek");
+		user.setUser_contact_number("9842455678");
+		user.setUser_email_id("abghr@gmail.com");
 		user.setUserAddress(new User_address());
 		return user;
 	}
@@ -44,8 +44,8 @@ public class payload {
 		userAddress=new User_address();
 		user.setUser_first_name("kikiki");
 		user.setUser_last_name("seksek");
-		user.setUser_contact_number("9932445678");
-		user.setUser_email_id("abfg@gmail.com");
+		user.setUser_contact_number("9965748678");
+		user.setUser_email_id("abfh@gmail.com");
 		user.setUserAddress(userAddress);
 		userAddress.setPlotNumber("PL-168");
 		userAddress.setStreet("Main Street");
